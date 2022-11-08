@@ -44,3 +44,12 @@ main = do
        let vol= (4*pi*r*r*r)/3
        putStrLn("The volume of sphere is ")
        print(vol)
+       
+ -- volume of cube
+ main = do
+       putStrLn("Enter the side of cube")
+       rin <- getLine
+       let r = (read rin :: Float)
+       let vol= (r*r*r)
+       putStrLn("The volume of cube is ")
+       print(vol)
