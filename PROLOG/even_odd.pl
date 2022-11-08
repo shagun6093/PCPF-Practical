@@ -7,7 +7,7 @@ sum([H|T],[N1,N2]):-
               ->  N1 is N3+H, N2 is N4
               ;   N2 is N4+H, N1 is N3
 
-             )
+             ).
              
              
 %For output:-
